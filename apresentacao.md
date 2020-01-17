@@ -52,8 +52,8 @@ Two-Way Data Binding: [(ngModel)]="property"
 
 ## dependencies vs devDependencies
 
-- dependencies são pacotes necessários para executar a aplicação em ambiente de produção
-- devDependencies são pacotes necessários para o ambiente de desenvolvimento
+As dependencies são pacotes necessários para executar a aplicação em ambiente de produção
+As devDependencies são pacotes necessários para o ambiente de desenvolvimento
 
 Exemplo de dependencie
 
@@ -98,6 +98,9 @@ Imagem2
 
 Evite o type any ao declarar as variáveis. Isso pode causar problemas indesejados.
 
+Sem tipagem
+
+```javascript
 const x = 1;
 const y = 'a';
 const z = x + y;
@@ -106,7 +109,11 @@ console.log(`Value of z is: ${z}`
 
 // Output
 Value of z is 1a
+```
 
+Com tipagem correta das variáveis
+
+```javascript
 const x: number = 1;
 const y: number = 'a';
 const z: number = x + y;
@@ -114,10 +121,10 @@ const z: number = x + y;
 // This will give a compile error saying:
 
 Type '"a"' is not assignable to type 'number'.
-
+```
 
 ### Módulos reaproveitáveis
 
-Módulo `core` contém componentes que serão compatilhados em toda a aplicação (header, menu, footer...).
+Módulo `core` contém componentes que serão compatilhados em toda a aplicação (header, menu, footer).
 
 Módulo `shared` pode conter componentes, diretivas, pipes que serão compartilhados entre vários módulos e componentes, mas não necessariamente em toda a aplicação.
