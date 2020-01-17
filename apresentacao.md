@@ -11,12 +11,12 @@ Com ele podemos construir aplicações interativas do tipo Sigle-page applicatio
 Node 10.9.0+\
 https://nodejs.org
 
-> Recomendamos a utilização do NVS (Node Version Switcher)
-> https://github.com/jasongin/nvs
-
 Angular CLI\
 npm install -g @angular/cli\
 https://angular.io/cli
+
+> Recomendamos a utilização do NVS (Node Version Switcher)
+> https://github.com/jasongin/nvs
 
 ## Iniciando uma aplicação
 
