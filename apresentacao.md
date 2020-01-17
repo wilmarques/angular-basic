@@ -6,7 +6,7 @@ Angular é um framework javascript utlizado para o desenvolvimento web. Com ele 
 
 ## Configuração do ambiente
 
-Node 10.9.0+
+Node 10.9.0+\
 https://nodejs.org
 
 > Recomendamos a utilização do NVS (Node Version Switcher)
