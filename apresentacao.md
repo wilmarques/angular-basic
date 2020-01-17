@@ -12,21 +12,21 @@ https://nodejs.org
 > Recomendamos a utilização do NVS (Node Version Switcher)
 https://github.com/jasongin/nvs
 
-Angular CLI
-npm install -g @angular/cli
+Angular CLI\
+npm install -g @angular/cli\
 https://angular.io/cli
 
 ## Iniciando uma aplicação
 
-ng new wolters-kluwer
-cd wolters-kluwer
+ng new wolters-kluwer\
+cd wolters-kluwer\
 ng serve
 
 https://angular.io/cli/new
 
 ## ng generate
 
-ng generate <option>
+ng generate `option`
 
 https://angular.io/cli/generate
 
