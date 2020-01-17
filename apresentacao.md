@@ -52,8 +52,9 @@ Two-Way Data Binding: [(ngModel)]="property"
 
 ## dependencies vs devDependencies
 
-As dependencies são pacotes necessários para executar a aplicação em ambiente de produção
-As devDependencies são pacotes necessários para o ambiente de desenvolvimento
+As dependencies são pacotes necessários para executar a aplicação em ambiente de produção.
+
+As devDependencies são pacotes necessários para o ambiente de desenvolvimento.
 
 Exemplo de dependencie
 
