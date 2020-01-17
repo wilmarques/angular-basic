@@ -2,7 +2,9 @@
 
 ## O que é Angular
 
-Angular é um framework javascript utilizado para o desenvolvimento web. Com ele podemos construir aplicações interativas do tipo Sigle-page application.
+Angular é um framework javascript utilizado para o desenvolvimento web.
+
+Com ele podemos construir aplicações interativas do tipo Sigle-page application.
 
 ## Configuração do ambiente
 
