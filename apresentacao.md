@@ -12,7 +12,7 @@ Node 10.9.0+\
 https://nodejs.org
 
 > Recomendamos a utilização do NVS (Node Version Switcher)
-https://github.com/jasongin/nvs
+> https://github.com/jasongin/nvs
 
 Angular CLI\
 npm install -g @angular/cli\
