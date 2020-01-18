@@ -1,0 +1,6 @@
+{
+    "markdown.extension.list.indentationSize": "inherit",
+    "markdownlint.config": {
+        "MD007": false
+    }
+}
